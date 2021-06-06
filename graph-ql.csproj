@@ -6,7 +6,14 @@
   </PropertyGroup>
 
   <ItemGroup>
+    <PackageReference Include="graphql.server.ui.voyager" Version="5.0.2" />
     <PackageReference Include="HotChocolate.AspNetCore" Version="11.2.2" />
+    <PackageReference Include="HotChocolate.Data.EntityFramework" Version="11.2.2" />
+    <PackageReference Include="Microsoft.entityframeworkCore.design" Version="5.0.6">
+      <IncludeAssets>runtime; build; native; contentfiles; analyzers; buildtransitive</IncludeAssets>
+      <PrivateAssets>all</PrivateAssets>
+    </PackageReference>
+    <PackageReference Include="Microsoft.entityframeworkCore.sqlserver" Version="5.0.6" />
   </ItemGroup>
 
 </Project>
